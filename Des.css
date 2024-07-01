@@ -1,0 +1,7 @@
+@font-face {
+    font-family:Custom;
+    src: url(fonts/Playwrite.ttf);
+}
+div{
+    font-family: Custom,sans-serif;
+}
