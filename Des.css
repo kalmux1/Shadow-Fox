@@ -2,6 +2,74 @@
     font-family:Custom;
     src: url(fonts/Playwrite.ttf);
 }
-div{
+*{
     font-family: Custom,sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background:
+    linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),
+    url(maaz.jpeg);
+    background-repeat: no-repeat;
+    background-size: 75vh 75vw;
+    background-position: center;
+    margin: 5%;
+}
+#cont{
+    min-height: 40px;
+    min-width: 60px;
+    padding: 1em;
+    border: 3px black solid;
+    border-radius: 2em;
+    display: flex;
+    align-content: center;
+}
+.img{
+    max-height:100px;
+    max-width:100px;
+    border-radius: 50%;
+}
+.det{
+    justify-content: end;
+}
+#id{
+    flex-basis: 60%;
+    text-align: center;
+}
+#edob{
+    min-height: 40px;
+    min-width: 60px;
+    margin: 0.5em;
+    padding: 1em;
+    border: 3px black solid;
+    border-radius: 2em;
+    display: flex;
+}
+hr{
+    background-color: black;
+}
+#ais{
+    min-height: 40px;
+    min-width: 60px;
+    margin: 0.5em;
+    padding: 1em;
+    border: 3px black solid;
+    border-radius: 2em;
+    display: flex;
+}
+.ai{
+    flex-basis: 70%;
+}
+#int{
+    min-height: 40px;
+    min-width: 60px;
+    margin: 0.5em;
+    padding: 1em;
+    border: 3px black solid;
+    border-radius: 2em;
+    display: flex;
+}
+#cc{
+    flex-basis: 60%;
 }
